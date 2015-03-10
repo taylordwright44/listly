@@ -1,0 +1,65 @@
+body {background-color: #222;
+}
+
+.well {
+min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+text-shadow: silver 0px 1px 2px;
+background-color: #333;
+color: white;
+border-radius: 4px;
+border-color: transparent;
+-webkit-box-shadow: black 2px 2px 4px;
+box-shadow: black 2px 3px 7px;
+}
+
+label {width: 100%;}
+.form-inline .form-control { width: 100%; border: 2px solid silver;}
+
+input[type=submit] {
+margin-top: 5px;
+margin-left: 45%;
+background-image: linear-gradient(#888888,#555555);
+color: #eee;
+border-color: #222;
+}
+
+.list-group-item {
+background-color: #444;
+border-color: #333;
+box-shadow: black 1px 1px 1px;
+text-align: center;
+}
+
+.h1, h1 {
+font-size: 36px;
+text-align: center;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+font-family: impact;
+background-color: rgba(69, 69, 69, 0.38);
+border-radius: 12px;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+  background-color: silver;
+  color: white;
+  border-color: #555;
+}
+
+button, input, select, textarea {
+font-family: inherit;
+font-size: inherit;
+color: #555;
+border-radius: 12px;
+line-height: inherit;
+font-weight: 600;
+margin-left: 5px;
+}
+
+button:active, .button:active, button:focus, .button:focus, button:hover, .button:hover{
+    outline:none !important;
+    opacity: .9;
+}
